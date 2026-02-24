@@ -4,10 +4,12 @@ using System.Text;
 
 namespace SurveySystem.Application.DTOs
 {
-    public class CreateOrderRequest
+    public class CsvOrderDto
     {
-        public double Latitude { get; set; }
+        public int Id { get; set; }
         public double Longitude { get; set; }
+        public double Latitude { get; set; }
+        public DateTime Timestamp { get; set; }
         public decimal Subtotal { get; set; }
     }
 }

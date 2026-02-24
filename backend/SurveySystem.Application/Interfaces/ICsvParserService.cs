@@ -1,10 +1,12 @@
-﻿using System;
+﻿using SurveySystem.Application.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace SurveySystem.Application.Interfaces
 {
-    internal interface ICsvParserService
+    public interface ICsvParserService
     {
+        IEnumerable<CsvOrderDto> ParseOrders(Stream fileStream);
     }
 }
