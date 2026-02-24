@@ -1,4 +1,7 @@
 <Solution>
-  <Project Path="SurveySystem.Api/SurveySystem.Api.csproj" />
+  <Project Path="SurveySystem.Api/SurveySystem.csproj" />
+  <Project Path="SurveySystem.Application/SurveySystem.Application.csproj" />
+  <Project Path="SurveySystem.Domain/SurveySystem.Domain.csproj" />
+  <Project Path="SurveySystem.Infrastructure/SurveySystem.Infrastructure.csproj" />
   <Project Path="SurveySystem.Tests/SurveySystem.Tests.csproj" />
 </Solution>

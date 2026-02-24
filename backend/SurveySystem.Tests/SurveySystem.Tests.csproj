@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SurveySystem.Api\SurveySystem.Api.csproj" />
+    <ProjectReference Include="..\SurveySystem.Api\SurveySystem.csproj" />
   </ItemGroup>
 
 </Project>
