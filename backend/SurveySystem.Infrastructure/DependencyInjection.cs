@@ -6,5 +6,6 @@ namespace SurveySystem.Infrastructure
 {
     internal class DependencyInjection
     {
+
     }
 }
