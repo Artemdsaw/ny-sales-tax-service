@@ -4,7 +4,7 @@ using SurveySystem.Application.Interfaces;
 
 namespace SurveySystem.Controllers
 {
-    [Route("orders")]
+    [Route("api/orders")]
     [ApiController]
     public class OrdersController(IOrderRepository orderRepository) : ControllerBase
     {
