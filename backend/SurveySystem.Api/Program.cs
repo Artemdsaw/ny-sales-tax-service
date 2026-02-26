@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SurveySystem.Application;
 using SurveySystem.Infrastructure;
 using SurveySystem.Infrastructure.Persistance;
+using SurveySystem.Infrastructure.Services;
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
@@ -33,7 +34,6 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-
 }
 
 app.UseHttpsRedirection();
@@ -47,6 +47,7 @@ using (var scope = app.Services.CreateScope())
     {
         var context = services.GetRequiredService<AppDbContext>();
         context.Database.Migrate();
+        await SeedTaxZones.SeedTaxZonesAsync(context);
     }
     catch (Exception ex)
     {

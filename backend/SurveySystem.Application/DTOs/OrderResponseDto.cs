@@ -14,6 +14,6 @@ namespace SurveySystem.Application.DTOs
         public decimal TaxAmount { get; set; }       
         public decimal TotalAmount { get; set; }      
         public TaxBreakdown? Breakdown { get; set; }  
-        public List<string> Jurisdictions { get; set; } = []; 
+        public List<string> Jurisdictions { get; set; } = [];
     }
 }

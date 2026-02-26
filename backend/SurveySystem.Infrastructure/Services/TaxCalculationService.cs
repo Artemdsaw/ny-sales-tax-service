@@ -18,10 +18,10 @@ namespace SurveySystem.Infrastructure.Services
             var matchedZones = await _context.TaxZones
                 .Where(zone => zone.Boundary.Contains(deliveryPoint))
                 .ToListAsync(cancellationToken);
-
+            
             if (matchedZones.Count == 0)
             {
-                return (0.04m, new TaxBreakdown(0.04m, 0, 0, 0), new List<string> { "New York State (Fallback)" });
+                return (0.04m, new TaxBreakdown(0.04m, 0, 0, 0), new List<string> { "New York State" });
             }
 
             var stateRate = matchedZones.Max(z => z.StateRate); 

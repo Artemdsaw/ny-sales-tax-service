@@ -46,9 +46,9 @@ namespace SurveySystem.Application.UseCases
         {
             var order = new Order(latitude, longitude, subtotal, DateTime.UtcNow);
 
-            var taxResult = await _taxService.CalculateTaxAsync(latitude, longitude, cancellationToken);
+            var (CompositeRate, Breakdown, Jurisdictions) = await _taxService.CalculateTaxAsync(latitude, longitude, cancellationToken);
 
-            order.ApplyTax(taxResult.CompositeRate, taxResult.Breakdown, taxResult.Jurisdictions);
+            order.ApplyTax(CompositeRate, Breakdown, Jurisdictions);
 
             await _orderService.AddAsync(order, cancellationToken);
 

@@ -5,20 +5,16 @@ namespace SurveySystem.Domain.Entities;
 public class Order
 {
     public Guid Id { get; private set; }
-
     public int? ExternalId { get; private set; }
-
     public double Latitude { get; private set; }
     public double Longitude { get; private set; }
     public decimal Subtotal { get; private set; }
     public DateTime Timestamp { get; private set; }
-
     public decimal CompositeTaxRate { get; private set; }
     public decimal TaxAmount { get; private set; }
     public decimal TotalAmount { get; private set; }
     public TaxBreakdown? Breakdown { get; private set; }
-    public List<string> Jurisdictions { get; private set; } = new();
-
+    public List<string> Jurisdictions { get; private set; } = [];
     protected Order() { }
 
     public Order(int externalId, double latitude, double longitude, decimal subtotal, DateTime timestamp)
