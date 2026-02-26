@@ -1,0 +1,8 @@
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_SurveySystem.Tests
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\bin\Debug\net10.0\CoverletSourceRootsMapping_SurveySystem.Tests
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\obj\Debug\net10.0\SurveySystem.Tests.csproj.AssemblyReference.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\obj\Debug\net10.0\SurveySystem.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\obj\Debug\net10.0\SurveySystem.Tests.AssemblyInfoInputs.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\obj\Debug\net10.0\SurveySystem.Tests.AssemblyInfo.cs
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\obj\Debug\net10.0\SurveySystem.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Tests\obj\Debug\net10.0\SurveySystem.Tests.sourcelink.json

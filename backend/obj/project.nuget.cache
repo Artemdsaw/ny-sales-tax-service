@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IN7QLPNF7UI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Влад\\source\\repos\\ny-sales-tax-service\\backend\\SurveySystem.Api\\SurveySystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

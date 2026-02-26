@@ -1,0 +1,16 @@
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.csproj.AssemblyReference.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.AssemblyInfoInputs.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.AssemblyInfo.cs
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.sourcelink.json
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\bin\Debug\net10.0\SurveySystem.Application.deps.json
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\bin\Debug\net10.0\SurveySystem.Application.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\bin\Debug\net10.0\SurveySystem.Application.pdb
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\bin\Debug\net10.0\SurveySystem.Domain.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\bin\Debug\net10.0\SurveySystem.Domain.pdb
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySy.9A3050C6.Up2Date
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\refint\SurveySystem.Application.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\SurveySystem.Application.pdb
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Application\obj\Debug\net10.0\ref\SurveySystem.Application.dll

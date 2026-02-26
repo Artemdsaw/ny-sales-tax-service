@@ -1,0 +1,13 @@
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\bin\Debug\net10.0\SurveySystem.Domain.deps.json
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\bin\Debug\net10.0\SurveySystem.Domain.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\bin\Debug\net10.0\SurveySystem.Domain.pdb
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.csproj.AssemblyReference.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.AssemblyInfo.cs
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.sourcelink.json
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\refint\SurveySystem.Domain.dll
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\SurveySystem.Domain.pdb
+C:\Users\Влад\source\repos\ny-sales-tax-service\backend\SurveySystem.Domain\obj\Debug\net10.0\ref\SurveySystem.Domain.dll

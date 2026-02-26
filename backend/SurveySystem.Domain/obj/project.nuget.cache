@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t7OINxyyL2E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Влад\\source\\repos\\ny-sales-tax-service\\backend\\SurveySystem.Domain\\SurveySystem.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Влад\\.nuget\\packages\\nettopologysuite\\2.6.0\\nettopologysuite.2.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
