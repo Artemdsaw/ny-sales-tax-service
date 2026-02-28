@@ -12,7 +12,8 @@ namespace SurveySystem.Application.DTOs
         public decimal Subtotal { get; set; }
         public decimal CompositeTaxRate { get; set; } 
         public decimal TaxAmount { get; set; }       
-        public decimal TotalAmount { get; set; }      
+        public decimal TotalAmount { get; set; }   
+        public DateTime Timestamp { get; set; }   
         public TaxBreakdown? Breakdown { get; set; }  
         public List<string> Jurisdictions { get; set; } = [];
     }

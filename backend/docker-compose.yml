@@ -7,7 +7,6 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 12345
-    
       POSTGRES_DB: survey_db 
     ports:
       - "5433:5432"
@@ -26,6 +25,16 @@ services:
     environment:
       ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=survey_db;Username=postgres;Password=12345"
       ASPNETCORE_ENVIRONMENT: "Development"
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    container_name: surveysystem_ui
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
 
 volumes:
   postgres_data:
