@@ -3,10 +3,12 @@ using SurveySystem.Application;
 using SurveySystem.Infrastructure;
 using SurveySystem.Infrastructure.Persistance;
 using SurveySystem.Infrastructure.Services;
+using Scalar.AspNetCore;
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -17,37 +19,22 @@ builder.Services.AddCors(options =>
     });
 });
 
-
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddApplication();
-
 builder.Services.AddInfrastructure(builder.Configuration);
-
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowReactApp", policy =>
-    {
-        policy.AllowAnyOrigin() 
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-    });
-});
-
-
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
 app.UseCors("AllowAll");
 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 using (var scope = app.Services.CreateScope())
@@ -67,5 +54,4 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.MapControllers();
-
 app.Run();
