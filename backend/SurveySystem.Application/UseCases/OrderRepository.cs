@@ -74,6 +74,7 @@ namespace SurveySystem.Application.UseCases
                 CompositeTaxRate = order.CompositeTaxRate,
                 TaxAmount = order.TaxAmount,
                 TotalAmount = order.TotalAmount,
+                Timestamp = order.Timestamp,
                 Breakdown = order.Breakdown,
                 Jurisdictions = order.Jurisdictions
             };
