@@ -30,7 +30,7 @@ namespace SurveySystem.Infrastructure.Services
             CancellationToken cancellationToken = default)
         {
             var query = _context.Orders.AsNoTracking();
-            
+
             if (filters.StartDate.HasValue)
                 query = query.Where(o => o.Timestamp >= filters.StartDate.Value.ToUniversalTime());
 

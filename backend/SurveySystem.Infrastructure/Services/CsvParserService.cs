@@ -3,7 +3,6 @@ using CsvHelper.Configuration;
 using SurveySystem.Application.DTOs;
 using SurveySystem.Application.Interfaces;
 using System.Globalization;
-using System.Net.Security;
 
 namespace SurveySystem.Infrastructure.Services
 {
@@ -16,7 +15,7 @@ namespace SurveySystem.Infrastructure.Services
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 HasHeaderRecord = true,
-                MissingFieldFound = null, 
+                MissingFieldFound = null,
             };
 
             using var csv = new CsvReader(reader, config);

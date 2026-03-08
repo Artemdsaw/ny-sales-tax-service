@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SurveySystem.Domain.ValueObjects
+﻿namespace SurveySystem.Domain.ValueObjects
 {
     public record TaxBreakdown(
      decimal StateRate,

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SurveySystem.Application.DTOs
+﻿namespace SurveySystem.Application.DTOs
 {
     public class CreateOrderRequest
     {

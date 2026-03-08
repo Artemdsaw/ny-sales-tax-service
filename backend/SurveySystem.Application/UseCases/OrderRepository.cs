@@ -1,9 +1,6 @@
 ﻿using SurveySystem.Application.DTOs;
 using SurveySystem.Application.Interfaces;
 using SurveySystem.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SurveySystem.Application.UseCases
 {

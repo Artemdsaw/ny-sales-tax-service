@@ -18,7 +18,7 @@ public class Order
     protected Order() { }
 
     public Order(int externalId, double latitude, double longitude, decimal subtotal, DateTime timestamp)
-        : this(latitude, longitude, subtotal, timestamp) 
+        : this(latitude, longitude, subtotal, timestamp)
     {
         ExternalId = externalId;
     }

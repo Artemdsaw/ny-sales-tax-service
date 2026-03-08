@@ -9,7 +9,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        
+
         modelBuilder.HasPostgresExtension("postgis");
 
         modelBuilder.Entity<TaxZone>(builder =>
@@ -22,7 +22,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
 
             builder.Property(tz => tz.Boundary).HasColumnType("geometry");
         });
-        
+
         modelBuilder.Entity<Order>(builder =>
         {
             builder.HasKey(o => o.Id);

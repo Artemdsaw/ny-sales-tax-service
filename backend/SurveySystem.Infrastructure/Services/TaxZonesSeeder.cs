@@ -4,10 +4,7 @@ using NetTopologySuite.Features;
 using NetTopologySuite.IO;
 using SurveySystem.Domain.Entities;
 using SurveySystem.Infrastructure.Persistance;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 
 namespace SurveySystem.Infrastructure.Services
 {
@@ -24,7 +21,7 @@ namespace SurveySystem.Infrastructure.Services
     {
         public static async Task SeedTaxZonesAsync(AppDbContext context)
         {
-           
+
             if (context.TaxZones.Any()) return;
 
             var basePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");

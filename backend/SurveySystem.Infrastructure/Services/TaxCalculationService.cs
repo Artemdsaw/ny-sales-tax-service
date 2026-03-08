@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NetTopologySuite.Geometries;
-using NetTopologySuite.Index.Strtree;
-using Npgsql;
-using NpgsqlTypes;
 using SurveySystem.Application.Interfaces;
 using SurveySystem.Domain.Entities;
 using SurveySystem.Domain.ValueObjects;
@@ -30,7 +27,7 @@ namespace SurveySystem.Infrastructure.Services
                 return (0.04m, new TaxBreakdown(0.04m, 0, 0, 0), new List<string> { "Other state" });
             }
 
-            var stateRate = matchedZones.Max(z => z.StateRate); 
+            var stateRate = matchedZones.Max(z => z.StateRate);
             var countyRate = matchedZones.Sum(z => z.CountyRate);
             var cityRate = matchedZones.Sum(z => z.CityRate);
             var specialRates = matchedZones.Sum(z => z.SpecialRates);

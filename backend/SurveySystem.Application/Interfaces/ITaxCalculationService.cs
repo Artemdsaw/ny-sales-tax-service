@@ -1,8 +1,5 @@
 ﻿using SurveySystem.Domain.Entities;
 using SurveySystem.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SurveySystem.Application.Interfaces
 {

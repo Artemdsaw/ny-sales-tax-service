@@ -1,9 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SurveySystem.Application.Interfaces;
 using SurveySystem.Application.UseCases;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SurveySystem.Application
 {
